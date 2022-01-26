@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="image/favicon.png" />
+</head>
+
+<body>
+    <div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark myNav">
+            <a class="navbar-brand" href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+
+        </nav>
+    </div>
+    <section class="container text-center" id="mySec">
+        <div class="container myDiv mt-5">
+            <div class="row ">
+                <div class="col div1 mb-5 ">
+
+                    <h1 class="text-left font-weight-bolder">
+                        Facebook
+                    </h1>
+                    <p class="text-left">Facebook helps you connect and share with the people in your life.</p>
+                </div>
+                <div class="col">
+                    <form class="form-group " onsubmit="return false">
+                        <fieldset class=" p-3 text-left myForm">
+                            <h3 class="float-none w-auto text-center">Login Your Account</h3>
+
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control col-md-10" id="inp3" placeholder="Enter Your Email"
+                                name="email" required>
+
+                            <label for="password">Password:</label>
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <input type="password" class="form-control col-md-10 "
+                                        placeholder="Enter Your Password" id="pass" name="password" required>
+
+                                    <a href="javascript:void(0)" class="ml-1" onclick="showPass1(this)"><i
+                                            class="far fa-eye"></i></a>
+                                </div>
+                            </div>
+
+
+                            <div class="text-center">
+
+                                <button class="btn btn-dark mt-2 " onclick="logIn()">Login</button>
+                            </div>
+                        </fieldset>
+
+                    </form>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <div class="container myDashboard mt-5 pb-3 " id="myDashboard">
+        <div class="text-center text-break">
+
+            <h1>DashBoard</h1>
+        </div>
+        <div class="text-break" id="dashboardDiv">
+            <label>
+                UserName:
+            </label>
+            <h3> Huzaifa Siddiqui</h3>
+            <label>Email:</label>
+
+            <h3 class="text-capitalize">Siddiquihuzaifa68@gmail.com</h3>
+
+        </div>
+
+    </div>
+</body>
+<script src="app.js"></script>
+<script src="https://kit.fontawesome.com/43bb2aa1ea.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
+
+</html>
